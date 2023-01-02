@@ -17,7 +17,7 @@
                         <div class="relative z-40 py-32 mx-auto max-w-screen-lg">
                             <div class="relative z-40 mx-auto flex flex-col space-y-4 text-center items-center gap-4">
                                 <div class="flex items-center flex-col">
-                                    <div class="w-max">
+                                   <!-- <div class="w-max">
                                         <div
                                             class="border flex items-center gap-2 p-1 pr-5 bg-blue-800 bg-opacity-40 rounded-3xl border-blue-600 text-gray-200">
                                             <span
@@ -31,10 +31,11 @@
                                             </span>
                                             <span class="text-xs sm:text-sm line-clamp-1">plus qu'une famille</span>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <h1
                                         class="max-w-4xl mx-auto text-2xl pb-1 sm:text-3xl md:text-5xl lg:text-6xl line-clamp-3 font-bold text-white flex">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        AGIR AVEC FO-YAM
+
                                     </h1>
                                 </div>
                                 <p class="text-gray-100 max-w-3xl">
