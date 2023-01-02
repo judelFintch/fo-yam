@@ -11,10 +11,7 @@
     </head>
     <body class="bg-white overflow-x-hidden">
       @include('partials.nav')
-
-      
          @yield('content')
-
       @include('partials.footer')
         <footer class="pt-10 pb-4 bg-gray-100">
             <div class="mx-auto w-full px-5 sm:px-8 md:px-10 lg:px-6 max-w-screen-lg lg:max-w-screen-xl">

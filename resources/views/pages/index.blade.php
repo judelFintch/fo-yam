@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Fondation Yamba');
+@section('title', 'Fondation Yamba')
 
 @section('content')
 <section class="relative w-full h-max">
