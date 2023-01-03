@@ -73,7 +73,7 @@
 
                                 
                                         <li>
-                                            <a href="news.html"
+                                            <a href="{{route('pages.actu')}}"
                                                 class="flex w-full lg:w-max  transition hover:text-blue-600 lg:hover:text-blue-800">
                                                 Actualites
                                             </a>

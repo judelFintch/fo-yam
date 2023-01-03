@@ -7,4 +7,9 @@ use Illuminate\Http\Request;
 class ActuController extends Controller
 {
     //
+
+    public function actu()
+    {
+    
+    }
 }
