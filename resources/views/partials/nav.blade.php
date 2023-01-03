@@ -3,7 +3,7 @@
                     <div class=" w-full px-5 sm:px-8 md:px-10 lg:px-6 max-w-screen-lg lg:max-w-screen-xl">
                         <div class="flex relative justify-between py-3 items-center">
                             <div class="flex items-center">
-                                <a href="#" aria-label="logo" class="flex space-x-2 items-center">
+                                <a href="{{route('pages.home')}}" aria-label="logo" class="flex space-x-2 items-center">
                                     <div aria-hidden="true" class="flex space-x-1">
                                         <div class="h-4 w-4 rounded-full bg-gray-900"></div>
                                         <div class="h-6 w-2 bg-blue-600 rounded-full"></div>
@@ -24,11 +24,15 @@
                                     <ul
                                         class="space-y-6 tracking-wide font-medium text-base lg:space-x-5 lg:text-sm lg:flex lg:space-y-0 text-gray-600">
                                         <li>
-                                            <a href="index.html"
+                                            <a href="{{route('pages.home')}}"
                                                 class="flex w-full lg:w-max transition hover:text-blue-600 lg:hover:text-blue-800">
                                                 Accueil
                                             </a>
                                         </li>
+
+                                      
+
+
                                         <li data-has-drop-down class="group">
                                             <a data-drop-down-trigger href="#"
                                                 class="flex justify-between lg:justify-start items-center gap-1 w-full lg:w-max lg:px-0 transition hover:text-blue-600 lg:hover:text-blue-800">
@@ -44,7 +48,7 @@
                                             lg:absolute lg:!min-h-max lg:!h-max overflow-hidden w-full lg:w-48 lg:bg-white lg:shadow-lg lg:shadow-gray-100/30 lg:border lg:border-gray-100 lg:py-3 lg:border-t-2 lg:border-t-blue-600 lg:top-full pl-3 lg:rounded-xl lg:pl-0">
                                                 <ul role="list" class="w-full my-3 lg:my-0 flex flex-col lg:pl-0 text-gray-600 lg:border-l-0 border-l-2 border-l-gray-100">
                                                     <li class="flex">
-                                                        <a href="about.html" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">A propos</a>
+                                                        <a href="{{route('pages.about')}}" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Qui sommes-nous?</a>
                                                     </li>
                                                     <li class="flex">
                                                         <a href="#" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Gallerie</a>
@@ -54,6 +58,13 @@
                                                     </li>
                                                 </ul>
                                             </div>
+                                        </li>
+
+                                        <li>
+                                            <a href="{{route('pages.activities')}}"
+                                                class="flex w-full lg:w-max transition hover:text-blue-600 lg:hover:text-blue-800">
+                                                Activités
+                                            </a>
                                         </li>
 
                                         <li data-has-drop-down class="group">

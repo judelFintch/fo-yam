@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ActivityController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +16,6 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', [HomeController::class,'index']);
+Route::get('/', [HomeController::class,'index'])->name("pages.home");
+Route::get('/qui-sommes-nous', [AboutController::class,'about'])->name("pages.about");
+Route::get('/activites-fondation-yamba', [ActivityController::class,'activity'])->name("pages.activities");
