@@ -14,4 +14,22 @@ class AboutController extends Controller
     
     }
 
+    public function vision()
+    {
+    }
+
+
+    public function status()
+    {
+    }
+
+    public function reglement()
+    {
+    }
+
+
+    public function reglements()
+    {
+    }
+
 }

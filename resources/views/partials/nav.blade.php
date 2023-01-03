@@ -51,10 +51,14 @@
                                                         <a href="{{route('pages.about')}}" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Qui sommes-nous?</a>
                                                     </li>
                                                     <li class="flex">
-                                                        <a href="#" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Gallerie</a>
+                                                        <a href="{{route('pages.vision')}}" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Notre Vision</a>
                                                     </li>
                                                     <li class="flex">
-                                                        <a href="#" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Gallerie</a>
+                                                        <a href="{{route('pages.status')}}" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Status</a>
+                                                    </li>
+
+                                                    <li class="flex">
+                                                        <a href="{{route('pages.reglement')}}" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Reglement Interieurs</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -67,10 +71,17 @@
                                             </a>
                                         </li>
 
+                                
+                                        <li>
+                                            <a href="news.html"
+                                                class="flex w-full lg:w-max  transition hover:text-blue-600 lg:hover:text-blue-800">
+                                                Actualites
+                                            </a>
+                                        </li>
                                         <li data-has-drop-down class="group">
                                             <a data-drop-down-trigger href="#"
                                                 class="flex justify-between lg:justify-start items-center gap-1 w-full lg:w-max lg:px-0 transition hover:text-blue-600 lg:hover:text-blue-800">
-                                                Apropos
+                                                S'engagez
                                                 <span class="lg:group-hover:-rotate-90 duration-300 transition-all text-current">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
                                                         <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
@@ -82,27 +93,17 @@
                                             lg:absolute lg:!min-h-max lg:!h-max overflow-hidden w-full lg:w-48 lg:bg-white lg:shadow-lg lg:shadow-gray-100/30 lg:border lg:border-gray-100 lg:py-3 lg:border-t-2 lg:border-t-blue-600 lg:top-full pl-3 lg:rounded-xl lg:pl-0">
                                                 <ul role="list" class="w-full my-3 lg:my-0 flex flex-col lg:pl-0 text-gray-600 lg:border-l-0 border-l-2 border-l-gray-100">
                                                     <li class="flex">
-                                                        <a href="about.html" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">A propos</a>
+                                                        <a href="about.html" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">A d'adhesion</a>
                                                     </li>
                                                     <li class="flex">
-                                                        <a href="#" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Gallerie</a>
+                                                        <a href="#" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Newsletter</a>
                                                     </li>
-                                                    <li class="flex">
-                                                        <a href="#" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Gallerie</a>
-                                                    </li>
+                                                   
                                                 </ul>
                                             </div>
                                         </li>
-
-                                        
                                         <li>
-                                            <a href="news.html"
-                                                class="flex w-full lg:w-max  transition hover:text-blue-600 lg:hover:text-blue-800">
-                                                Actualites
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html"
+                                            <a href="{{ route('pages.contact')}}"
                                                 class="flex w-full lg:w-max transition hover:text-blue-600 lg:hover:text-blue-800">
                                                 Contact
                                             </a>
