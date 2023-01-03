@@ -7,6 +7,7 @@ use App\Http\Controllers\ActivityController;
 use App\Http\Controllers\JoinController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ActuController;
+use App\Http\Controllers\AdhesionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,6 +58,11 @@ Route::controller(ContactController::class)->group(function () {
 
 Route::controller(ActuController::class)->group(function () {
     Route::get('/nos-actualites-fondation-yamba','actu')->name("pages.actu");
+
+});
+
+Route::controller(AdhesionController::class)->group(function () {
+    Route::get('/devenez-menbre-de-la-fondation-yamba','adhesion')->name("pages.adhesion");
 
 });
 

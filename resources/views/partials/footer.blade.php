@@ -6,9 +6,9 @@
                     role="list"
                     class="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
                     >
-                    <li role="listitem"><a href="index.html" class="hover:text-blue-600 transition">Accueil</a></li>
-                    <li role="listitem"><a href="about.html" class="hover:text-blue-600 transition">A propos</a></li>
-                    <li role="listitem"><a href="news.html" class="hover:text-blue-600 transition">Actualite</a></li>
+                    <li role="listitem"><a href="{{route('pages.home')}}" class="hover:text-blue-600 transition">Accueil</a></li>
+                    <li role="listitem"><a href="{{route('pages.about')}}" class="hover:text-blue-600 transition">A propos</a></li>
+                    <li role="listitem"><a href="{{route('pages.actu')}}" class="hover:text-blue-600 transition">Actualite</a></li>
                     <li role="listitem"><a href="adhesion.html" class="hover:text-blue-600 transition">Adhesion</a></li>
                     </ul>
                     <div class="m-auto flex w-max items-center justify-between space-x-4">

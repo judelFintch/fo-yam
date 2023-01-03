@@ -93,7 +93,7 @@
                                             lg:absolute lg:!min-h-max lg:!h-max overflow-hidden w-full lg:w-48 lg:bg-white lg:shadow-lg lg:shadow-gray-100/30 lg:border lg:border-gray-100 lg:py-3 lg:border-t-2 lg:border-t-blue-600 lg:top-full pl-3 lg:rounded-xl lg:pl-0">
                                                 <ul role="list" class="w-full my-3 lg:my-0 flex flex-col lg:pl-0 text-gray-600 lg:border-l-0 border-l-2 border-l-gray-100">
                                                     <li class="flex">
-                                                        <a href="about.html" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">A d'adhesion</a>
+                                                        <a href="{{route('pages.adhesion')}}" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">A d'adhesion</a>
                                                     </li>
                                                     <li class="flex">
                                                         <a href="#" class="px-4 py-2.5 transition hover:bg-gray-100 w-full">Newsletter</a>
@@ -112,7 +112,7 @@
                                 </div>
 
                                 <div class="w-full  flex md:w-max lg:pl-3">
-                                    <a href="adhesion.html" class="relative w-full lg:w-max flex py-3 px-8
+                                    <a href="{{route('pages.adhesion')}}" class="relative w-full lg:w-max flex py-3 px-8
                                         items-center 
                                         justify-center before:absolute before:inset-0 
                                         before:rounded-3xl focus:before:bg-blue-600/10
