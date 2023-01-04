@@ -105,6 +105,13 @@
                                         <li>
                                             <a href="{{ route('pages.contact')}}"
                                                 class="flex w-full lg:w-max transition hover:text-blue-600 lg:hover:text-blue-800">
+                                                Gallerie
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="{{ route('pages.contact')}}"
+                                                class="flex w-full lg:w-max transition hover:text-blue-600 lg:hover:text-blue-800">
                                                 Contact
                                             </a>
                                         </li>

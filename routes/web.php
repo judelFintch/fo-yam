@@ -1,13 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\ActivityController;
-use App\Http\Controllers\JoinController;
-use App\Http\Controllers\ContactController;
-use App\Http\Controllers\ActuController;
-use App\Http\Controllers\AdhesionController;
+use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Frontend\AboutController;
+use App\Http\Controllers\Frontend\ActivityController;
+use App\Http\Controllers\Frontend\JoinController;
+use App\Http\Controllers\Frontend\ContactController;
+use App\Http\Controllers\Frontend\ActuController;
+use App\Http\Controllers\Frontend\AdhesionController;
 
 /*
 |--------------------------------------------------------------------------
