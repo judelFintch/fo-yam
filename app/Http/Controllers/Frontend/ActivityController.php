@@ -10,6 +10,8 @@ class ActivityController extends Controller
     public function activity()
     {
 
+        return view("pages.activites.activity");
+
     }
 
 }

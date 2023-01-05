@@ -65,14 +65,6 @@
                                         </li>
 
                                         <li>
-                                            <a href="{{route('pages.activities')}}"
-                                                class="flex w-full lg:w-max transition hover:text-blue-600 lg:hover:text-blue-800">
-                                                Activités
-                                            </a>
-                                        </li>
-
-                                
-                                        <li>
                                             <a href="{{route('pages.actu')}}"
                                                 class="flex w-full lg:w-max  transition hover:text-blue-600 lg:hover:text-blue-800">
                                                 Actualites

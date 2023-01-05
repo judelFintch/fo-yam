@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', ' Fo-yam- Status')
 @section('content')
  <!-- hero section -->
  <section class="relative w-full h-max">

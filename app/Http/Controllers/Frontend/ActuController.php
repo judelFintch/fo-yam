@@ -11,6 +11,8 @@ class ActuController extends Controller
 
     public function actu()
     {
+
+        return view("pages.actualites.actu");
     
     }
 }

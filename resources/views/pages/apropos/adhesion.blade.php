@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', ' Fo-yam- Adhesion')
 @secstion('content')
 
 
