@@ -8,6 +8,7 @@ use App\Http\Controllers\Frontend\JoinController;
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\ActuController;
 use App\Http\Controllers\Frontend\AdhesionController;
+use App\Http\Controllers\Frontend\GalleryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -63,6 +64,11 @@ Route::controller(ActuController::class)->group(function () {
 
 Route::controller(AdhesionController::class)->group(function () {
     Route::get('/devenez-menbre-de-la-fondation-yamba','adhesion')->name("pages.adhesion");
+
+});
+
+Route::controller(GalleryController::class)->group(function () {
+    Route::get('/notre-gallerie-fondation-yamba', 'gallery')->name("pages.gallery");
 
 });
 

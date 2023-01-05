@@ -11,5 +11,7 @@ class AdhesionController extends Controller
 
     public function adhesion()
     {
+
+        return view("pages.adhesion.adhesion");
     }
 }
