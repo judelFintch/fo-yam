@@ -25,7 +25,7 @@
                         ></path>
                         </svg>
                     </a>
-                    <a href="mailto:hello@mail.com" aria-label="send mail">
+                    <a href="mailto:info@fondationyamba.org" aria-label="send mail">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"

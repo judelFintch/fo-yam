@@ -224,25 +224,28 @@
                                 </div>
                             </div>
                             <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-                                Nous creons un monde <span class="text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-sky-400 ">lorem ispum</span>
+                            Apropos <span class="text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-sky-400 ">fo-yam</span>
                             </h2>
                         </div>
 
                         <div class="space-y-2">
                             <p class="text-gray-600 line-clamp-6">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, cumque laborum in
-                                aperiam enim, ipsa quidem veritatis molestiae exercitationem saepe, doloremque hic quos
-                                ad facere? Accusantium tempora sit eum vero.
+                            Créée A Lubumbashi, chef lieu de la province du haut katanga, en Date du 08 Juillet 2020 conforment a la loi n 004/2001 du 30 Juillet 2001 portant disposition générales applicables aux assoctions sans but lucratif dénommée <span class="text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-sky-400 ">FONDATION YAMBA << FO-YAM>></span>  
+                            </p>
+                            <p  class="text-gray-600 line-clamp-6">
+                            
+
+                            Elle agit pour un monde plus solidaire, inclusif et durable où chacun peut vivre dans la dignité.
+                            Fo-yam Cree est préocucupés par la gravité d'extériorisation de tissu éconimique du pays en général et des conditions socio-économique des communautés locales vivant à  l'interieur du grand Katanga en partuculier;
                             </p>
                             <p class="text-gray-600 line-clamp-6">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, cumque laborum in
-                                aperiam enim, ipsa quidem veritatis molestiae exercitationem saepe, doloremque hic quos
-                                ad facere? Accusantium tempora sit eum vero.
+                               Considerant l'impact des affaires des luttés armées qui ont élu domicile et responsables des actes inhumains dont nous citons.
                             </p>
                             <p class="text-gray-600 line-clamp-6">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, cumque laborum in
-                                aperiam enim, ipsa quidem veritatis molestiae exercitationem saepe, doloremque hic quos
-                                ad facere? Accusantium tempora sit eum vero.
+                               <li>Les enfant en rupture familiale</li>
+                               <li>Les orphelins , les viellqrds</li>
+                               <li>Les personnes vivant avec Handicap, les viols des filles mineurs et veuves, commis pqr des hommes</li>
+                               
                             </p>
                         </div>
                     </div>
