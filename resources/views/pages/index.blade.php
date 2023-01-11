@@ -84,13 +84,11 @@
                                     </div>
                                     <h1
                                         class="max-w-4xl mx-auto text-2xl pb-1 sm:text-3xl md:text-5xl lg:text-6xl line-clamp-3 font-bold text-white flex">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Rejoignez notre fondation et faites votre part pour que le changement ait lieu
                                     </h1>
                                 </div>
                                 <p class="text-gray-100 max-w-3xl">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. ggg Expedita, nulla ipsa?
-                                    Ullam fugit adipisci nobis sint aut debitis cumque quod voluptatum, laborum aperiam
-                                    fugiat officiis aliquid explicabo corrupti eveniet possimus.
+                                Nous luttons pour des causes vitales, que ce soit pour l'éco-responsabilité, les droits des femmes,  la défense des droits humains. Nous sommes ouverts à tous et chacun peut contribuer selon ses moyens. Filez vite à notre rencontre et devenez le composant actif de ce mouvement pour le changement!
                                 </p>
                                 <div class="pt-2 flex justify-center mx-auto">
                                     <a href="#" class="relative flex py-3 px-8
