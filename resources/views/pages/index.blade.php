@@ -284,28 +284,25 @@
                                 </div>
                             </div>
                             <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-                                Nous avons une <span class="text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-sky-400">VIsion lorem</span>
+                                Notre Mission<span class="text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-sky-400"> fo-yam</span>
                             </h2>
                         </div>
 
                         <div class="space-y-2">
                             <p class="text-gray-600">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, cumque laborum in
-                                aperiam enim, ipsa quidem veritatis molestiae exercitationem saepe, doloremque hic quos
-                                ad facere? Accusantium tempora sit eum vero.
+                            La fondation Yamba fo-yam en sigle est a pour missions de combattre pauvreté, les agressions et assurer les progrès et la croissance de l’homme sur le plan culturel, socio-économique et environnementale, en république Démocratique du Congo. 
+                            Avec une équipe passionnée et dévouée, nous travaillons jour après jour pour répondre a des besoins réels chez personnes en difficulté telle que   les enfants en ruptures familiale, les orphelins, les vieillards, les personnes vivant avec handicap, veuves 
+ 
+.
                                 <br> <br>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, cumque laborum in
-                                aperiam enim, ipsa quidem veritatis molestiae exercitationem saepe, doloremque hic quos
-                                ad facere? Accusantium tempora sit eum vero.
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, cumque laborum in
-                                aperiam enim, ipsa quidem veritatis molestiae exercitationem saepe, doloremque hic quos
-                                ad facere? Accusantium tempora sit eum vero.
-                            </p>
+                                Nous croyons fermement que chacun d'entre nous peut faire une différence positive dans le monde. C'est pourquoi nous invitons tous ceux qui partagent nos valeurs à se joindre à nous et à devenir des membres actifs de notre communauté.
+                                En tant que membre, vous aurez l'occasion de participer à nos campagnes de sensibilisation, de participer à nos projets sur le terrain et de rencontrer d'autres personnes engagées qui, comme vous, veulent changer le monde.
+                                                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="flex md:h-full">
-                    <img src="images/young-and-styled.jpg" alt="about img"
+                    <img src="{{asset('images/immat.jpg')}}" alt="about img"
                         class="md:h-full w-full rounded-3xl object-cover">
                 </div>
             </div>
@@ -338,7 +335,7 @@
                             <div
                                 class="group flex flex-col h-full p-1 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-200/60">
                                 <div class="h-max min-h-max relative overflow-hidden rounded-xl">
-                                    <img src="images/unsflash.png"
+                                    <img src="{{asset('images/immat.jpg')}}"
                                         alt="art cover" loading="lazy" width="1000" height="667"
                                         class="h-44 md:h-52 lg:h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
                                 </div>
@@ -384,7 +381,7 @@
                             <div
                                 class="group flex flex-col h-full p-1 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-200/60">
                                 <div class="h-max min-h-max relative overflow-hidden rounded-xl">
-                                    <img src="images/unsflash.png"
+                                    <img src="{{asset('images/immat.jpg')}}"
                                         alt="art cover" loading="lazy" width="1000" height="667"
                                         class="h-44 md:h-52 lg:h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
                                 </div>
@@ -430,7 +427,7 @@
                             <div
                                 class="group flex flex-col h-full p-1 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-200/60">
                                 <div class="h-max min-h-max relative overflow-hidden rounded-xl">
-                                    <img src="images/unsflash.png"
+                                    <img src="{{asset('images/immat.jpg')}}"
                                         alt="art cover" loading="lazy" width="1000" height="667"
                                         class="h-44 md:h-52 lg:h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
                                 </div>
@@ -476,7 +473,7 @@
                             <div
                                 class="group flex flex-col h-full p-1 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-200/60">
                                 <div class="h-max min-h-max relative overflow-hidden rounded-xl">
-                                    <img src="images/unsflash.png"
+                                    <img src="{{asset('images/immat.jpg')}}"
                                         alt="art cover" loading="lazy" width="1000" height="667"
                                         class="h-44 md:h-52 lg:h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
                                 </div>
@@ -522,7 +519,7 @@
                             <div
                                 class="group flex flex-col h-full p-1 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-200/60">
                                 <div class="h-max min-h-max relative overflow-hidden rounded-xl">
-                                    <img src="images/unsflash.png"
+                                    <img src="{{asset('images/immat.jpg')}}"
                                         alt="art cover" loading="lazy" width="1000" height="667"
                                         class="h-44 md:h-52 lg:h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105" />
                                 </div>
@@ -603,10 +600,10 @@
                     <div class="m-auto space-y-6 md:w-8/12 lg:w-7/12">
                         <h1 class="text-center text-4xl font-bold text-white md:text-5xl">Get Started now</h1>
                         <p class="text-center text-xl text-gray-300">
-                        Rejoignez notre mouvement pour faire une différence réelle dans la vie des personnes les plus vulnérables dans notre communauté. En tant qu'organisation non gouvernementale, nous travaillons sans relâche pour améliorer les conditions de vie des sans-abris, des personnes âgées et des enfants à risque. Avec votre soutien, nous pouvons continuer à fournir des repas chauds, des soins de santé et des logements abordables pour ceux qui en ont le plus besoin. Faites un don aujourd'hui et faites partie de la solution pour construire une société plus juste et plus équitable pour tous
+                        Avec votre soutien, nous pouvons continuer à fournir des repas chauds, des soins de santé et des logements abordables pour ceux qui en ont le plus besoin. Faites un don aujourd'hui et faites partie de la solution pour construire une société plus juste et plus équitable pour tous
                         </p>
                         <div class="flex flex-wrap justify-center gap-6">
-                            <a href="adhesion.html" class="relative w-full sm:w-max flex py-3 px-8
+                            <a href="{{route('pages.adhesion')}}" class="relative w-full sm:w-max flex py-3 px-8
                                     items-center 
                                     justify-center before:absolute before:inset-0 
                                     before:rounded-3xl focus:before:bg-blue-600/10
