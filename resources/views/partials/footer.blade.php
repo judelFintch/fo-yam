@@ -1,7 +1,7 @@
 <footer class="pt-10 pb-4 bg-gray-100">
             <div class="mx-auto w-full px-5 sm:px-8 md:px-10 lg:px-6 max-w-screen-lg lg:max-w-screen-xl">
                 <div class=" mx-auto space-y-6 text-gray-600">
-                    <img src="logo.svg" alt="ong logo" class="mx-auto w-40" />
+                    <img src="" alt="ong logo" class="mx-auto w-40" />
                     <ul
                     role="list"
                     class="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"

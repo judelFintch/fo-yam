@@ -9,7 +9,7 @@
             <div class="swiper-wrapper !bg-transparent w-full relative">
 
                 <div class="swiper-slide flex items-center relative">
-                    <img src="images/unsflash.png" alt="bg" width="800"
+                    <img src="images/immat.jpg" alt="bg" width="800"
                         class=" w-full h-full absolute left-0 top-0 object-cover z-0">
                     <div class="absolute z-10 inset-0 bg-slate-600 bg-opacity-70"></div>
                     <div
@@ -34,14 +34,12 @@
                                     </div>-->
                                     <h1
                                         class="max-w-4xl mx-auto text-2xl pb-1 sm:text-3xl md:text-5xl lg:text-6xl line-clamp-3 font-bold text-white flex">
-                                        AGIR AVEC FO-YAM
-
+                                        Ensemble  travallons à réduire la pauvreté,  et à soutenir les personnes les plus vulnérables
                                     </h1>
                                 </div>
                                 <p class="text-gray-100 max-w-3xl">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. ggg Expedita, nulla ipsa?
-                                    Ullam fugit adipisci nobis sint aut debitis cumque quod voluptatum, laborum aperiam
-                                    fugiat officiis aliquid explicabo corrupti eveniet possimus.
+                                   
+                               Rejoignez-nous et contribuez à faire une différence. Avec votre soutien, nous serons en mesure de fournir des soins et des services plus précieux aux communautés et de fournir un soutien aux initiatives qui ont le plus besoin d'aide.
                                 </p>
                                 <div class="pt-2 flex justify-center mx-auto">
                                     <a href="#" class="relative flex py-3 px-8
