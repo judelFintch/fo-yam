@@ -88,7 +88,7 @@
                                     </h1>
                                 </div>
                                 <p class="text-gray-100 max-w-3xl">
-                                Nous luttons pour des causes vitales, que ce soit pour l'éco-responsabilité, les droits des femmes,  la défense des droits humains. Nous sommes ouverts à tous et chacun peut contribuer selon ses moyens. Filez vite à notre rencontre et devenez le composant actif de ce mouvement pour le changement!
+                                Nous luttons pour des causes vitales, que ce soit pour l'éco-responsabilité, les droits des femmes, Les enfant en rupture familiale, Les personnes vivant avec Handicap, les viols des filles mineurs et veuves, la défense des droits humains. Nous sommes ouverts à tous et chacun peut contribuer selon ses moyens. Filez vite à notre rencontre et devenez le composant actif de ce mouvement pour le changement!
                                 </p>
                                 <div class="pt-2 flex justify-center mx-auto">
                                     <a href="#" class="relative flex py-3 px-8
@@ -107,7 +107,7 @@
                 </div>
 
                 <div class="swiper-slide flex items-center relative">
-                    <img src="images/unsflash.png" alt="bg" width="800"
+                    <img src="{{asset('images/adherez.jpg')}}" alt="bg" width="800"
                         class=" w-full h-full absolute left-0 top-0 object-cover z-0">
                     <div class="absolute z-10 inset-0 bg-slate-600 bg-opacity-70"></div>
                     <div
@@ -132,13 +132,11 @@
                                     </div>
                                     <h1
                                         class="max-w-4xl mx-auto text-2xl pb-1 sm:text-3xl md:text-5xl lg:text-6xl line-clamp-3 font-bold text-white flex">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Travaillons sans relâche pour améliorer les conditions de vie. 
                                     </h1>
                                 </div>
                                 <p class="text-gray-100 max-w-3xl">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. ggg Expedita, nulla ipsa?
-                                    Ullam fugit adipisci nobis sint aut debitis cumque quod voluptatum, laborum aperiam
-                                    fugiat officiis aliquid explicabo corrupti eveniet possimus.
+                                Rejoignez notre mouvement pour faire une différence réelle dans la vie des personnes les plus vulnérables dans notre communauté. En tant qu'organisation non gouvernementale, travaillons sans relâche pour améliorer les conditions de vie des sans-abris, des personnes âgées et des enfants à risque. Avec votre soutien, nous pouvons continuer à fournir des repas chauds, des soins de santé et des logements abordables pour ceux qui en ont le plus besoin. Faites un don aujourd'hui et faites partie de la solution pour construire une société plus juste et plus équitable pour tous..
                                 </p>
                                 <div class="pt-2 flex justify-center mx-auto">
                                     <a href="#" class="relative flex py-3 px-8
@@ -199,7 +197,7 @@
         <div class="mx-auto w-full px-5 sm:px-8 md:px-10 lg:px-6 max-w-screen-lg lg:max-w-screen-xl">
             <div class="grid md:items-center md:grid-cols-2 gap-10">
                 <div class="flex md:h-full">
-                    <img src="images/young-and-styled.jpg" alt="about img"
+                    <img src="{{asset('images/immat.jpg')}}" alt="about img"
                         class="md:h-full w-full rounded-3xl object-cover">
                 </div>
                 <div class="flex flex-col space-y-7">
@@ -239,8 +237,8 @@
                             </p>
                             <p class="text-gray-600 line-clamp-6">
                                <li>Les enfant en rupture familiale</li>
-                               <li>Les orphelins , les viellqrds</li>
-                               <li>Les personnes vivant avec Handicap, les viols des filles mineurs et veuves, commis pqr des hommes</li>
+                               <li>Les orphelins , les viellards</li>
+                               <li>Les personnes vivant avec Handicap, les viols des filles mineurs et veuves, commis par des hommes</li>
                                
                             </p>
                         </div>
@@ -605,7 +603,7 @@
                     <div class="m-auto space-y-6 md:w-8/12 lg:w-7/12">
                         <h1 class="text-center text-4xl font-bold text-white md:text-5xl">Get Started now</h1>
                         <p class="text-center text-xl text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae modi doloribus vitae sequi ipsa impedit 
+                        Rejoignez notre mouvement pour faire une différence réelle dans la vie des personnes les plus vulnérables dans notre communauté. En tant qu'organisation non gouvernementale, nous travaillons sans relâche pour améliorer les conditions de vie des sans-abris, des personnes âgées et des enfants à risque. Avec votre soutien, nous pouvons continuer à fournir des repas chauds, des soins de santé et des logements abordables pour ceux qui en ont le plus besoin. Faites un don aujourd'hui et faites partie de la solution pour construire une société plus juste et plus équitable pour tous
                         </p>
                         <div class="flex flex-wrap justify-center gap-6">
                             <a href="adhesion.html" class="relative w-full sm:w-max flex py-3 px-8
