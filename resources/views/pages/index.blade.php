@@ -9,7 +9,7 @@
             <div class="swiper-wrapper !bg-transparent w-full relative">
 
                 <div class="swiper-slide flex items-center relative">
-                    <img src="images/immat.jpg" alt="bg" width="800"
+                    <img src="{{asset('images/immat.jpg')}}" alt="bg" width="800"
                         class=" w-full h-full absolute left-0 top-0 object-cover z-0">
                     <div class="absolute z-10 inset-0 bg-slate-600 bg-opacity-70"></div>
                     <div
@@ -59,7 +59,7 @@
 
 
                 <div class="swiper-slide flex items-center relative">
-                    <img src="images/young-and-styled.jpg" alt="bg" width="800"
+                    <img src="{{asset('images/adherez.jpg')}}" alt="bg" width="800"
                         class=" w-full h-full absolute left-0 top-0 object-cover z-0">
                     <div class="absolute z-10 inset-0 bg-slate-600 bg-opacity-70"></div>
                     <div
