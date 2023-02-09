@@ -4,9 +4,9 @@
             <div class="grid grid-cols-2 gap-x-8 gap-y-10 lg:gap-x-12 sm:grid-cols-4 pt-8">
                 <div>
                     <div class="flex flex-col">
-                        <img width="100" height="100" src="{{asset('images/logo.svg')}}" alt="logo site" class="h-12 w-auto" />
+                        <img src="{{asset('images/logo.svg')}}" alt="logo site" class="h-96 w-auto" />
                         <p class="text-gray-600 pt-2 ">
-                        Une organisation dédiée à apporter une aide vitale aux enfants en rupture familiale, aux orphelins, aux personnes âgées, aux personnes vivant avec un handicap
+                       
                         </p>
 
                         <div class="flex gap-4 text-gray-600 pt-8">
