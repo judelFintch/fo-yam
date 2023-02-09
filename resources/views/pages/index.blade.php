@@ -1,7 +1,5 @@
 @extends('layouts.app')
-
 @section('title', ' Fo-yam -  Acceuil')
-
 @section('content')
 <section class="relative w-full h-max">
         <div class="swiper-hero swiper !w-full !relative">
@@ -79,7 +77,7 @@
                                                         clip-rule="evenodd" />
                                                 </svg>
                                             </span>
-                                            <span class="text-xs sm:text-sm line-clamp-1">plus qu'une famille</span>
+                                            <span class="text-xs sm:text-sm line-clamp-1">Bienvenue sur le site offciels de FO</span>
                                         </div>
                                     </div>
                                     <h1
@@ -214,11 +212,11 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                     </span>
-                                    <span class="text-xs line-clamp-1">Qui nous sommes</span>
+                                    <span class="text-xs line-clamp-1">Présentation générale de la fondation</span>
                                 </div>
                             </div>
                             <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800">
-                            Apropos <span class="text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-sky-400 ">fo-yam</span>
+                            Bienvenue sur le site officiel de <span class="text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-sky-400 ">FO-YAM</span>
                             </h2>
                         </div>
 
@@ -229,22 +227,13 @@
                             <p  class="text-gray-600 line-clamp-6">
                             
 
-                            Elle agit pour un monde plus solidaire, inclusif et durable où chacun peut vivre dans la dignité.
-                            Fo-yam Cree est préocucupés par la gravité d'extériorisation de tissu éconimique du pays en général et des conditions socio-économique des communautés locales vivant à  l'interieur du grand Katanga en partuculier;
+                            Une organisation dédiée à apporter une aide vitale aux enfants en rupture familiale, aux orphelins, aux personnes âgées, aux personnes vivant avec un handicap, aux filles mineures et veuves victimes de violences commises par des hommes.
                             </p>
-                            <p class="text-gray-600 line-clamp-6">
-                               Considerant l'impact des affaires des luttés armées qui ont élu domicile et responsables des actes inhumains dont nous citons.
-                            </p>
-                            <p class="text-gray-600 line-clamp-6">
-                               <li>Les enfant en rupture familiale</li>
-                               <li>Les orphelins , les viellards</li>
-                               <li>Les personnes vivant avec Handicap, les viols des filles mineurs et veuves, commis par des hommes</li>
-                               
-                            </p>
+                           
                         </div>
                     </div>
                     <div class="">
-                        <a href="#" class="relative w-full lg:w-max flex py-3 px-8
+                        <a href="{{ route('pages.about')}}" class="relative w-full lg:w-max flex py-3 px-8
                                 items-center 
                                 justify-center before:absolute before:inset-0 
                                 before:rounded-3xl focus:before:bg-blue-600/10
@@ -290,14 +279,17 @@
 
                         <div class="space-y-2">
                             <p class="text-gray-600">
-                            La fondation Yamba fo-yam en sigle est a pour missions de combattre pauvreté, les agressions et assurer les progrès et la croissance de l’homme sur le plan culturel, socio-économique et environnementale, en république Démocratique du Congo. 
-                            Avec une équipe passionnée et dévouée, nous travaillons jour après jour pour répondre a des besoins réels chez personnes en difficulté telle que   les enfants en ruptures familiale, les orphelins, les vieillards, les personnes vivant avec handicap, veuves 
- 
-.
-                                <br> <br>
-                                Nous croyons fermement que chacun d'entre nous peut faire une différence positive dans le monde. C'est pourquoi nous invitons tous ceux qui partagent nos valeurs à se joindre à nous et à devenir des membres actifs de notre communauté.
-                                En tant que membre, vous aurez l'occasion de participer à nos campagnes de sensibilisation, de participer à nos projets sur le terrain et de rencontrer d'autres personnes engagées qui, comme vous, veulent changer le monde.
-                                                            </p>
+                            Notre mission est de soutenir les groupes les plus vulnérables de notre société en leur offrant une aide financière, matérielle et morale. Nous croyons en leur potentiel et en leur capacité à surmonter les défis auxquels ils sont confrontés et à construire un avenir meilleur pour eux-mêmes et pour leur communauté.
+                            </p>
+                            <p>
+
+                            Nos actions:
+                                Aide financière pour les soins médicaux, la nourriture et le logement
+                                Programme d'éducation pour les enfants en rupture familiale et les orphelins
+                                Soutien aux personnes âgées pour améliorer leur qualité de vie
+                                Services pour les personnes vivant avec un handicap pour les aider à surmonter les obstacles de la vie quotidienne
+                                Aide aux filles mineures et veuves victimes de violences pour les aider à surmonter les traumatismes 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -598,9 +590,9 @@
                 <div class="absolute top-1/2 -translate-y-1/2 left-1/2 blur-2xl -translate-x-1/2 w-40 h-36 skew-x-12 bg-gradient-to-tr from-blue-200 to-sky-600 rounded-full"></div>
                 <div class="relative py-10 px-8">
                     <div class="m-auto space-y-6 md:w-8/12 lg:w-7/12">
-                        <h1 class="text-center text-4xl font-bold text-white md:text-5xl">Get Started now</h1>
+                        <h1 class="text-center text-4xl font-bold text-white md:text-5xl">Faire un don</h1>
                         <p class="text-center text-xl text-gray-300">
-                        Avec votre soutien, nous pouvons continuer à fournir des repas chauds, des soins de santé et des logements abordables pour ceux qui en ont le plus besoin. Faites un don aujourd'hui et faites partie de la solution pour construire une société plus juste et plus équitable pour tous
+                        En faisant un don, vous aiderez à changer des vies et à soutenir nos programmes. Tous les dons sont déductibles d'impôt et sont utilisés pour aider les groupes cibles mentionnés.
                         </p>
                         <div class="flex flex-wrap justify-center gap-6">
                             <a href="{{route('pages.adhesion')}}" class="relative w-full sm:w-max flex py-3 px-8
@@ -610,7 +602,7 @@
                                     before:bg-blue-600 
                                     before:transition before:duration-300 hover:before:scale-105 
                                     active:duration-75 active:before:scale-95">
-                                <span class="relative text-white">Adherer maintenant</span>
+                                <span class="relative text-white">Faire un don</span>
                             </a>
 
                             <a href="about.html" class="relative w-full sm:w-max flex py-3 px-8
@@ -629,5 +621,4 @@
         </div>
     </section>
     <!-- end call to action -->
-
 @endsection
