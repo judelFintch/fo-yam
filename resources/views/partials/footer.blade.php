@@ -27,16 +27,16 @@
                     <h6 class="text-lg font-medium text-gray-800 pb-5">Apropos</h6>
                     <ul class="list-inside space-y-2 text-gray-600">
                         <li>
-                            <a href="{{route('pages.about')}}" class="hover:text-blue-600 transition">Qui sommes-nous?</a>
+                            <a href="#" class="hover:text-blue-600 transition">Qui sommes-nous?</a>
                         </li>
                         <li>
-                            <a href="{{route('pages.vision')}}" class="hover:text-blue-600 transition">Notre Vision</a>
+                            <a href="#" class="hover:text-blue-600 transition">Notre Vision</a>
                         </li>
                         <li>
-                            <a href="{{route('pages.status')}}" class="hover:text-blue-600 transition">Status</a>
+                            <a href="#" class="hover:text-blue-600 transition">Status</a>
                         </li>
                         <li>
-                            <a href="{{route('pages.reglement')}}" class="hover:text-blue-600 transition">Reglement Interieurs</a>
+                            <a href="#" class="hover:text-blue-600 transition">Reglement Interieurs</a>
                         </li>
                        
                     </ul>

@@ -301,6 +301,8 @@
         </div>
     </section>
 
+<!--
+
     <section class="pt-32">
         <div class="mx-auto w-full px-5 sm:px-8 md:px-10 lg:px-6 max-w-screen-lg lg:max-w-screen-xl">
             <div class="flex flex-col items-center text-center">
@@ -322,7 +324,7 @@
                 <div class="latestnews-swiper swiper">
                     <div class="swiper-wrapper !bg-transparent">
 
-                        <!-- swiper slide start -->
+                        swiper slide start 
                         <div class="swiper-slide !h-auto">
                             <div
                                 class="group flex flex-col h-full p-1 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-200/60">
@@ -366,9 +368,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- swiper slide end -->
+                         swiper slide end 
 
-                        <!-- swiper slide start -->
+                        swiper slide start 
                         <div class="swiper-slide !h-auto">
                             <div
                                 class="group flex flex-col h-full p-1 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-200/60">
@@ -412,9 +414,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- swiper slide end -->
-
-                        <!-- swiper slide start -->
+                        
                         <div class="swiper-slide !h-auto">
                             <div
                                 class="group flex flex-col h-full p-1 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-200/60">
@@ -458,9 +458,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- swiper slide end -->
-
-                        <!-- swiper slide start -->
+                        
                         <div class="swiper-slide !h-auto">
                             <div
                                 class="group flex flex-col h-full p-1 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-200/60">
@@ -504,9 +502,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- swiper slide end -->
-
-                        <!-- swiper slide start -->
+                        
                         <div class="swiper-slide !h-auto">
                             <div
                                 class="group flex flex-col h-full p-1 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-200/60">
@@ -550,7 +546,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- swiper slide end -->
+                        
 
 
                         
@@ -582,6 +578,7 @@
             </div>
         </div>
     </section>
+  -->
 
     <!-- call to action -->
     <section class="pt-12 pb-16">
